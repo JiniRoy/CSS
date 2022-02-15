@@ -1,0 +1,145 @@
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  padding-top: 20px;
+  margin-top: 40px;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:#00111a;
+  width: 60%;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color:rgba(29, 193, 133, 1);
+  width: 40%;
+}
+
+.dot{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+#id1{
+  width: 100%;
+  background-color: white;
+  height: 30px;
+}
+
+img{
+  width: 107px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.centered{
+  margin-left: 50px;
+  margin-right: 150px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+h1,h3{
+  line-height:0.5 ;
+}
+
+h3{
+  font-size: 20px;
+  color:rgba(255, 255, 255, 0.3);
+  font-weight:15;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 14;
+  color:rgba(255, 255, 255, 0.9);
+}
+
+p{
+  font-size: 12px;
+  line-height: 1.5;
+  color:rgba(255, 255, 255, 0.3);
+  font-weight:15;
+}
+
+.button{
+  background-color:rgba(29, 193, 133, 1);
+  border-color:rgba(29, 193, 133, 0) ;
+  color: white;
+  font-size: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 100;
+}
+
+.navbar{
+  margin-left: 50px;
+  bottom: 20px;
+  position: fixed;
+}
+
+.navbar a{
+  padding-right:40px;
+  font-size: 10px;
+  font-weight: 15;
+  color:rgba(255, 255, 255, 0.3);
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.centered1{
+  margin-left: 80px;
+  margin-top: 255px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color:rgba(255, 255, 255, 0.8);
+  font-weight: 15;
+}
+
+.centered1 input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 5px;
+  width: 400px;
+}
+
+::placeholder{
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+
+.button1{
+  color: rgba(29, 193, 133, 1);
+  border-color: rgba(29, 193, 133, 0);
+  background-color: white;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 8px;
+  letter-spacing: 0.1px;
+  font-weight: bolder;
+}
+
+.centered1 a{
+  padding-left: 10px;
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  text-decoration: none;
+}
+
